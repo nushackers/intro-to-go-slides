@@ -19,7 +19,7 @@ We assume that you have basic programming knowledge, like some understanding of 
 
 .link https://goplay.tools
 
-.link https://go.dev/play/
+.link https://go.dev/play
 
 .link https://hckr.cc/ht2425s1-w8-slides
 
@@ -709,3 +709,9 @@ But there's a catch! You can only download up to a certain number of videos at t
 Obviously, you shouldn't be downloading them one-by-one either.
 
 .link https://github.com/nushackers/intro-to-go-slides/blob/main/exercises/video_downloading/main.go
+
+## What's Next
+
+- Generics (this is a somewhat new thing)
+- Organising many files into an app
+- Dependency management
