@@ -129,14 +129,14 @@ Go only has the `for` loop, but it has different kinds.
 There's the Java-style for loop.
 
     for i := 0; i < 10; i++ {
-		fmt.Printf("for loop iteration: %d\n", i)
+		fmt.Println("for loop iteration", i)
 	}
 
 And also the for-loop-that-should-really-be-a-while-loop.
 
     j := 0
 	for j < 10 {
-		fmt.Printf("while loop iteration: %d\n", j)
+		fmt.Println("while loop iteration", j)
 		j++
 	}
 
@@ -146,7 +146,7 @@ There's also the infinite for loop. Usually you'd have a `break` somewhere in th
 
     k := 0
 	for {
-		fmt.Printf("infinite loop iteration: %d\n", k)
+		fmt.Println("infinite loop iteration", k)
 		k++
 	}
 

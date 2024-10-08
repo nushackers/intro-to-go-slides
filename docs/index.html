@@ -262,13 +262,13 @@ func main() {
         <p>Go only has the <code>for</code> loop, but it has different kinds.</p>
 <p>There's the Java-style for loop.</p>
 <pre><code>for i := 0; i &lt; 10; i++ {
-    fmt.Printf(&quot;for loop iteration: %d\n&quot;, i)
+    fmt.Println(&quot;for loop iteration&quot;, i)
 }
 </code></pre>
 <p>And also the for-loop-that-should-really-be-a-while-loop.</p>
 <pre><code>j := 0
 for j &lt; 10 {
-    fmt.Printf(&quot;while loop iteration: %d\n&quot;, j)
+    fmt.Println(&quot;while loop iteration&quot;, j)
     j++
 }</code></pre>
 
@@ -284,7 +284,7 @@ for j &lt; 10 {
         <p>There's also the infinite for loop. Usually you'd have a <code>break</code> somewhere in the loop in order to stop it.</p>
 <pre><code>k := 0
 for {
-    fmt.Printf(&quot;infinite loop iteration: %d\n&quot;, k)
+    fmt.Println(&quot;infinite loop iteration&quot;, k)
     k++
 }</code></pre>
 
