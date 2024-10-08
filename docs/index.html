@@ -74,6 +74,20 @@
   
       <article >
       
+        <h3>Slides</h3>
+        <p class="link"><a href="https://hckr.cc/ht2425s1-w8-slides" target="_blank">hckr.cc/ht2425s1-w8-slides</a></p>
+<div class="image">
+  <img src="images/slides-qr.png" width="400">
+</div>
+
+      
+      <span class="pagenumber">3</span>
+      </article>
+  
+  
+  
+      <article >
+      
         <h3>whoami</h3>
         <ul>
 <li>I'm Ravern!</li>
@@ -84,7 +98,7 @@
 <p><em>I'm <strong>not</strong> an expert in Go, I'm here to teach the basics of Go. Feel free to stop me if I'm saying incorrect stuff.</em></p>
 
       
-      <span class="pagenumber">3</span>
+      <span class="pagenumber">4</span>
       </article>
   
   
@@ -103,7 +117,7 @@
 </ul>
 
       
-      <span class="pagenumber">4</span>
+      <span class="pagenumber">5</span>
       </article>
   
   
@@ -119,7 +133,7 @@
 </ul>
 
       
-      <span class="pagenumber">5</span>
+      <span class="pagenumber">6</span>
       </article>
   
   
@@ -135,7 +149,7 @@
 <p>It's also often used to build infrastructure tooling like <strong>Docker</strong> and <strong>Kubernetes</strong>.</p>
 
       
-      <span class="pagenumber">6</span>
+      <span class="pagenumber">7</span>
       </article>
   
   
@@ -144,7 +158,7 @@
       
         <h2>Basics of Go</h2>
       
-      <span class="pagenumber">7</span>
+      <span class="pagenumber">8</span>
       </article>
   
   
@@ -164,7 +178,7 @@ var (
 <p>Notice that we have to declare the <em>type</em> of each variable, e.g., <code>int</code>, <code>float64</code>.</p>
 
       
-      <span class="pagenumber">8</span>
+      <span class="pagenumber">9</span>
       </article>
   
   
@@ -184,7 +198,7 @@ var aString string = &quot;This is a string!&quot;
 var anInt int</code></pre>
 
       
-      <span class="pagenumber">9</span>
+      <span class="pagenumber">10</span>
       </article>
   
   
@@ -207,7 +221,7 @@ func baz() (string, string) {
 <p>Notice that there isn't a type definition for <code>anotherParam</code>.</p>
 
       
-      <span class="pagenumber">10</span>
+      <span class="pagenumber">11</span>
       </article>
   
   
@@ -234,7 +248,7 @@ func baz() (string, string) {
 </ul>
 
       
-      <span class="pagenumber">11</span>
+      <span class="pagenumber">12</span>
       </article>
   
   
@@ -251,7 +265,7 @@ func main() {
 }</code></pre>
 
       
-      <span class="pagenumber">12</span>
+      <span class="pagenumber">13</span>
       </article>
   
   
@@ -273,7 +287,7 @@ for j &lt; 10 {
 }</code></pre>
 
       
-      <span class="pagenumber">13</span>
+      <span class="pagenumber">14</span>
       </article>
   
   
@@ -289,7 +303,7 @@ for {
 }</code></pre>
 
       
-      <span class="pagenumber">14</span>
+      <span class="pagenumber">15</span>
       </article>
   
   
@@ -313,7 +327,7 @@ for {
 }</code></pre>
 
       
-      <span class="pagenumber">15</span>
+      <span class="pagenumber">16</span>
       </article>
   
   
@@ -335,7 +349,7 @@ case 5, 6, 7:
 <p>Notice how that the cases don't fall through by default, unlike in C or Java. Instead, we have to explicitly tell it to <code>fallthrough</code>.</p>
 
       
-      <span class="pagenumber">16</span>
+      <span class="pagenumber">17</span>
       </article>
   
   
@@ -354,7 +368,7 @@ case x &gt; 5:
 }</code></pre>
 
       
-      <span class="pagenumber">17</span>
+      <span class="pagenumber">18</span>
       </article>
   
   
@@ -381,7 +395,7 @@ fmt.Println(&quot;ptr =&quot;, ptr)
 fmt.Println(&quot;*ptr =&quot;, *ptr)</code></pre>
 
       
-      <span class="pagenumber">18</span>
+      <span class="pagenumber">19</span>
       </article>
   
   
@@ -409,7 +423,7 @@ func main() {
 }</code></pre>
 
       
-      <span class="pagenumber">19</span>
+      <span class="pagenumber">20</span>
       </article>
   
   
@@ -424,7 +438,7 @@ fmt.Println(x)
 <p>What happens when you try to modify a pointer whose value is <code>nil</code>?</p>
 
       
-      <span class="pagenumber">20</span>
+      <span class="pagenumber">21</span>
       </article>
   
   
@@ -442,7 +456,7 @@ fmt.Println(&quot;aBoolArray =&quot;, aBoolArray)
 fmt.Println(&quot;aStringArray =&quot;, aStringArray)</code></pre>
 
       
-      <span class="pagenumber">21</span>
+      <span class="pagenumber">22</span>
       </article>
   
   
@@ -463,7 +477,7 @@ anImmediateSlice := []int{1, 2, 3, 4, 5}
 fmt.Println(&quot;anImmediateSlice =&quot;, anImmediateSlice)</code></pre>
 
       
-      <span class="pagenumber">22</span>
+      <span class="pagenumber">23</span>
       </article>
   
   
@@ -481,7 +495,7 @@ fmt.Println(&quot;aSlice =&quot;, aSlice)
 fmt.Println(&quot;anotherSlice =&quot;, anotherSlice)</code></pre>
 
       
-      <span class="pagenumber">23</span>
+      <span class="pagenumber">24</span>
       </article>
   
   
@@ -496,7 +510,7 @@ fmt.Println(&quot;aSlice =&quot;, aSlice)
 <p>What's that second parameter (<code>500</code>) for?</p>
 
       
-      <span class="pagenumber">24</span>
+      <span class="pagenumber">25</span>
       </article>
   
   
@@ -516,7 +530,7 @@ for i, item := range aSlice {
 }</code></pre>
 
       
-      <span class="pagenumber">25</span>
+      <span class="pagenumber">26</span>
       </article>
   
   
@@ -538,7 +552,7 @@ fmt.Println(&quot;aMap[\&quot;two\&quot;] =&quot;, aMap[&quot;two&quot;])
 fmt.Println(&quot;aMap[\&quot;three\&quot;] = aMap[&quot;three&quot;])</code></pre>
 
       
-      <span class="pagenumber">26</span>
+      <span class="pagenumber">27</span>
       </article>
   
   
@@ -560,7 +574,7 @@ four, ok := aMap[&quot;four&quot;]
 fmt.Println(&quot;aMap[\&quot;four\&quot;] =&quot;, four, ok)</code></pre>
 
       
-      <span class="pagenumber">27</span>
+      <span class="pagenumber">28</span>
       </article>
   
   
@@ -581,7 +595,7 @@ three, ok := aMap[&quot;three&quot;]
 fmt.Println(&quot;aMap[\&quot;three\&quot;] =&quot;, three, ok)</code></pre>
 
       
-      <span class="pagenumber">28</span>
+      <span class="pagenumber">29</span>
       </article>
   
   
@@ -598,7 +612,7 @@ aMap[&quot;three&quot;] = 3
 fmt.Println(&quot;aMap =&quot;, aMap)</code></pre>
 
       
-      <span class="pagenumber">29</span>
+      <span class="pagenumber">30</span>
       </article>
   
   
@@ -622,7 +636,7 @@ for key, value := range aMap {
 }</code></pre>
 
       
-      <span class="pagenumber">30</span>
+      <span class="pagenumber">31</span>
       </article>
   
   
@@ -632,9 +646,9 @@ for key, value := range aMap {
         <h3>Exercise</h3>
         <p>Let's write a program that counts the number of times each word in <code>words</code> appears in <code>passage</code>, and prints the counts to the console.</p>
 <p><em>Hint: Check out the <code>strings.Fields</code> function.</em></p>
-
+<p class="link"><a href="https://github.com/nushackers/intro-to-go-slides/blob/main/exercises/word_count/main.go" target="_blank">github.com/nushackers/intro-to-go-slides/blob/main/exercises/word_count/main.go</a></p>
       
-      <span class="pagenumber">31</span>
+      <span class="pagenumber">32</span>
       </article>
   
   
@@ -643,7 +657,7 @@ for key, value := range aMap {
       
         <h2>Data Composition in Go</h2>
       
-      <span class="pagenumber">32</span>
+      <span class="pagenumber">33</span>
       </article>
   
   
@@ -669,7 +683,7 @@ func main() {
 }</code></pre>
 
       
-      <span class="pagenumber">33</span>
+      <span class="pagenumber">34</span>
       </article>
   
   
@@ -693,7 +707,7 @@ func main() {
 }</code></pre>
 
       
-      <span class="pagenumber">34</span>
+      <span class="pagenumber">35</span>
       </article>
   
   
@@ -724,7 +738,7 @@ func main() {
 }</code></pre>
 
       
-      <span class="pagenumber">35</span>
+      <span class="pagenumber">36</span>
       </article>
   
   
@@ -755,7 +769,7 @@ func main() {
 }</code></pre>
 
       
-      <span class="pagenumber">36</span>
+      <span class="pagenumber">37</span>
       </article>
   
   
@@ -771,7 +785,7 @@ func main() {
 }</code></pre>
 
       
-      <span class="pagenumber">37</span>
+      <span class="pagenumber">38</span>
       </article>
   
   
@@ -794,7 +808,7 @@ func (s square) area() int {
 }</code></pre>
 
       
-      <span class="pagenumber">38</span>
+      <span class="pagenumber">39</span>
       </article>
   
   
@@ -817,7 +831,7 @@ func (r rect) area() int {
 }</code></pre>
 
       
-      <span class="pagenumber">39</span>
+      <span class="pagenumber">40</span>
       </article>
   
   
@@ -839,7 +853,7 @@ func main() {
 }</code></pre>
 
       
-      <span class="pagenumber">40</span>
+      <span class="pagenumber">41</span>
       </article>
   
   
@@ -857,7 +871,7 @@ case rect:
 }</code></pre>
 
       
-      <span class="pagenumber">41</span>
+      <span class="pagenumber">42</span>
       </article>
   
   
@@ -872,18 +886,19 @@ if ok {
 }</code></pre>
 
       
-      <span class="pagenumber">42</span>
+      <span class="pagenumber">43</span>
       </article>
   
   
   
       <article >
       
-        <h3>Exercises</h3>
-        <p>Let's write a program to process payments from a few different payment methods.</p>
-
+        <h3>Exercise</h3>
+        <p>Let's write a program to &quot;process&quot; payments from a few different payment methods.</p>
+<p><em>Don't worry there's no actual processing, just printing to the console.</em></p>
+<p class="link"><a href="https://github.com/nushackers/intro-to-go-slides/blob/main/exercises/payment_processing/main.go" target="_blank">github.com/nushackers/intro-to-go-slides/blob/main/exercises/payment_processing/main.go</a></p>
       
-      <span class="pagenumber">43</span>
+      <span class="pagenumber">44</span>
       </article>
   
   
@@ -892,7 +907,7 @@ if ok {
       
         <h2>Concurrency and Parallelism in Go</h2>
       
-      <span class="pagenumber">44</span>
+      <span class="pagenumber">45</span>
       </article>
   
   
@@ -920,7 +935,7 @@ func main() {
 }</code></pre>
 
       
-      <span class="pagenumber">45</span>
+      <span class="pagenumber">46</span>
       </article>
   
   
@@ -945,7 +960,7 @@ func main() {
 }</code></pre>
 
       
-      <span class="pagenumber">46</span>
+      <span class="pagenumber">47</span>
       </article>
   
   
@@ -967,7 +982,7 @@ messages &lt;- message
 message := &lt;-messages</code></pre>
 
       
-      <span class="pagenumber">47</span>
+      <span class="pagenumber">48</span>
       </article>
   
   
@@ -997,7 +1012,7 @@ func main() {
 }</code></pre>
 
       
-      <span class="pagenumber">48</span>
+      <span class="pagenumber">49</span>
       </article>
   
   
@@ -1017,7 +1032,7 @@ case msg1 := &lt;-c2:
 }</code></pre>
 
       
-      <span class="pagenumber">49</span>
+      <span class="pagenumber">50</span>
       </article>
   
   
@@ -1034,7 +1049,7 @@ case msg1 := &lt;-c2:
 <p>This channel can store 5 messages. The 6th one will still block the goroutine.</p>
 
       
-      <span class="pagenumber">50</span>
+      <span class="pagenumber">51</span>
       </article>
   
   
@@ -1045,9 +1060,9 @@ case msg1 := &lt;-c2:
         <p>Let's write a program to &quot;download&quot; videos concurrently.</p>
 <p>But there's a catch! You can only download up to a certain number of videos at the same time, otherwise the program will crash.</p>
 <p>Obviously, you shouldn't be downloading them one-by-one either.</p>
-
+<p class="link"><a href="https://github.com/nushackers/intro-to-go-slides/blob/main/exercises/video_downloading/main.go" target="_blank">github.com/nushackers/intro-to-go-slides/blob/main/exercises/video_downloading/main.go</a></p>
       
-      <span class="pagenumber">51</span>
+      <span class="pagenumber">52</span>
       </article>
   
   

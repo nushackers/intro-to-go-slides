@@ -15,6 +15,11 @@ By the end of this workshop, you should be able to write your own simple Go prog
 
 We assume that you have basic programming knowledge, like some understanding of Python for example, but not much beyond that.
 
+## Slides
+
+.link https://hckr.cc/ht2425s1-w8-slides
+
+.image images/slides-qr.png _ 400
 
 ## whoami
 
@@ -396,6 +401,8 @@ Let's write a program that counts the number of times each word in `words` appea
 
 _Hint: Check out the `strings.Fields` function._
 
+.link https://github.com/nushackers/intro-to-go-slides/blob/main/exercises/word_count/main.go
+
 ## Data Composition in Go
 
 ## Structs
@@ -570,9 +577,13 @@ If we already know the concrete type, and we want to _get_ a variable of that ty
 		fmt.Println("The size of the square is", thisIsASquare.size)
 	}
 
-## Exercises
+## Exercise
 
-Let's write a program to process payments from a few different payment methods.
+Let's write a program to "process" payments from a few different payment methods.
+
+_Don't worry there's no actual processing, just printing to the console._
+
+.link https://github.com/nushackers/intro-to-go-slides/blob/main/exercises/payment_processing/main.go
 
 ## Concurrency and Parallelism in Go
 
@@ -692,3 +703,5 @@ Let's write a program to "download" videos concurrently.
 But there's a catch! You can only download up to a certain number of videos at the same time, otherwise the program will crash.
 
 Obviously, you shouldn't be downloading them one-by-one either.
+
+.link https://github.com/nushackers/intro-to-go-slides/blob/main/exercises/video_downloading/main.go
