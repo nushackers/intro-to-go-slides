@@ -15,11 +15,15 @@ By the end of this workshop, you should be able to write your own simple Go prog
 
 We assume that you have basic programming knowledge, like some understanding of Python for example, but not much beyond that.
 
-## Slides
+## Today's Resources
+
+.link https://goplay.tools
+
+.link https://go.dev/play/
 
 .link https://hckr.cc/ht2425s1-w8-slides
 
-.image images/slides-qr.png _ 400
+.image images/slides-qr.png _ 350
 
 ## whoami
 
